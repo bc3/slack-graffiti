@@ -1,0 +1,18 @@
+curl -X POST http://localhost:3000/slack/graffiti \
+  -H "Content-Type: application/json" \
+  -d '{"text": "hello"}'
+
+curl -X POST http://localhost:3000/slack/graffiti \
+  -H "Content-Type: application/json" \
+  -d '{"text": "zabun rules !!!!","font":"Alligator" }'
+
+  curl -X POST https://c4a6e11f2af7.ngrok-free.app/slack/graffiti \
+  -H "Content-Type: application/json" \
+  -d '{"text": "zabun rules !!!!","font":"Alligator" }'
+
+
+
+  curl -X POST https://c4a6e11f2af7.ngrok-free.app/slack/graffiti-image \
+  -H "Content-Type: application/json" \
+  -d '{"text": "zabun rules !!!!","font":"Alligator" }'
+   --output graffiti.png

@@ -1,0 +1,30 @@
+{
+  "name": "slack-graffiti",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@slack/bolt": "^4.4.0",
+    "@slack/web-api": "^7.9.3",
+    "canvas": "^3.1.2",
+    "chalk": "^5.5.0",
+    "express": "^5.1.0",
+    "figlet": "^1.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^24.2.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
